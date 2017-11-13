@@ -17,7 +17,7 @@ export let config: Config = {
     browserName: 'firefox'
   },
   specs: ['*e2e.spec.js'],
-  // exclude : ['poetrybuddy*'],
+  exclude : ['pokedex*'],
   seleniumAddress: 'http://localhost:4444/wd/hub',
 
   // You could set no globals to true to avoid jQuery '$' and protractor '$'
