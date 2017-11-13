@@ -1,0 +1,29 @@
+{
+  "name": "protractor-youtube",
+  "version": "1.0.0",
+  "description": "this serves as an exercise on using protractor on youtube",
+  "main": "index.js",
+  "dependencies": {
+    "@types/jasmine": "^2.6.3",
+    "@types/jasminewd2": "^2.0.3",
+    "concurrently": "^3.5.0",
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor": "^5.2.0",
+    "typescript": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "tsc && protractor conf.js",
+    "tsc:init": "tsc --init",
+    "tsc": "tsc",
+    "wd:start": "webdriver-manager update && webdriver-manager start",
+    "wd:stop": "webdriver-manager shutdown",
+    "wd:help": "webdriver-manager --help"
+  },
+  "keywords": [
+    "youtube",
+    "protractor"
+  ],
+  "author": "Ral Itong",
+  "license": "UNLICENSED"
+}
